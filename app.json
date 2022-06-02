@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "locationapp",
+    "slug": "locationapp",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1654129539244" clover="3.2.0">
+  <project timestamp="1654129539244" name="All files">
+    <metrics statements="55" coveredstatements="33" conditionals="10" coveredconditionals="2" methods="20" coveredmethods="10" elements="85" coveredelements="45" complexity="0" loc="55" ncloc="55" packages="4" files="7" classes="7"/>
+    <package name="components.Load">
+      <metrics statements="4" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="index.tsx" path="/Users/gilson.sales/Documents/locationapp/src/components/Load/index.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+      </file>
+      <file name="styles.ts" path="/Users/gilson.sales/Documents/locationapp/src/components/Load/styles.ts">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.TextInput">
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <file name="index.tsx" path="/Users/gilson.sales/Documents/locationapp/src/components/TextInput/index.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+      </file>
+      <file name="styles.ts" path="/Users/gilson.sales/Documents/locationapp/src/components/TextInput/styles.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="global.styles">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="/Users/gilson.sales/Documents/locationapp/src/global/styles/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="screens.Authentication.SignIn">
+      <metrics statements="44" coveredstatements="24" conditionals="10" coveredconditionals="2" methods="14" coveredmethods="6"/>
+      <file name="index.tsx" path="/Users/gilson.sales/Documents/locationapp/src/screens/Authentication/SignIn/index.tsx">
+        <metrics statements="29" coveredstatements="11" conditionals="10" coveredconditionals="2" methods="7" coveredmethods="1"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="26" count="3" type="stmt"/>
+        <line num="28" count="3" type="stmt"/>
+        <line num="29" count="3" type="stmt"/>
+        <line num="30" count="3" type="stmt"/>
+        <line num="31" count="3" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="37" count="3" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="42" count="3" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="52" count="3" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="54" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="62" count="3" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="64" count="0" type="stmt"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="68" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="69" count="0" type="stmt"/>
+        <line num="71" count="0" type="stmt"/>
+        <line num="74" count="0" type="stmt"/>
+        <line num="76" count="0" type="stmt"/>
+        <line num="80" count="3" type="stmt"/>
+        <line num="91" count="0" type="stmt"/>
+      </file>
+      <file name="styles.ts" path="/Users/gilson.sales/Documents/locationapp/src/screens/Authentication/SignIn/styles.ts">
+        <metrics statements="15" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="5"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="3" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="38" count="3" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="45" count="3" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
