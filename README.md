@@ -1,6 +1,9 @@
 # dados-climaticos-a-partir-das-coordenadas-geograficas
 Projeto desenvolvido em React Native para Android e Ios. Utilizando Expo, Typescript, Context Api, Expo Location Testing Library e api externa com (https://openweathermap.org/api e https://docs.github.com/pt/rest)
 
+O usuário faz login com o seu nome do GitHub. Feito isto, ele será direcionado para a tela Home que pedirá permissão para acessar a localização. Aceitando será exibido as informações climáticas da região, caso não aceite será exibido as informações da cidade de Viçosa - MG.
+
+O app possui dois temas: se o horário de acesso for antes das 18 ficará com o tema Light, após, ficará com o tema Dark.
 
 <h2><b> Comandos para rodar o projeto </b></h2>
 
