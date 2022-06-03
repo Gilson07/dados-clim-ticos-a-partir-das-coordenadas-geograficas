@@ -43,7 +43,7 @@ export const UserName = styled.Text`
 `;
 
 
-export const WeatherDatatList = styled(FlatList as new () => FlatList).attrs({
+export const WeatherDataList = styled(FlatList as new () => FlatList).attrs({
   contentContainerStyle: {
     paddingTop: 20,
     paddingBottom: 125,

@@ -22,7 +22,7 @@ import {
   Photo,
   UserGreeting,
   UserName,
-  WeatherDatatList
+  WeatherDataList
 } from './styles';
 
 export const Home: React.FunctionComponent<Props> = ({ route }) => {
@@ -49,7 +49,9 @@ export const Home: React.FunctionComponent<Props> = ({ route }) => {
   async function requestUserPermission() {
     const { status } = await Location.requestForegroundPermissionsAsync();
     if (status !== 'granted') {
-      fetchDataRegion("-20.7546", "-42.8825") // Por padrão são utilizadas as coordenadas de Viçosa-MG
+      let LATITUDE_IN_VICOSA = "-20.7546";
+      let LONGITUDE_IN_VICOSA = "-42.8825";
+      fetchDataRegion(LATITUDE_IN_VICOSA, LONGITUDE_IN_VICOSA);
       return;
     }
 
@@ -94,8 +96,7 @@ export const Home: React.FunctionComponent<Props> = ({ route }) => {
       {
         loading
           ? <Load size="large" />
-          :
-          <WeatherDatatList
+          : <WeatherDataList
             dayPeriod={dayPeriod}
             data={currentLocationData.daily}
             horizontal={true}
